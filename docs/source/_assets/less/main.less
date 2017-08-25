@@ -1,8 +1,13 @@
 .foo {
-  @class "bg-light px-4";
+  @apply .px-4;
+  @apply .bg-blue .py-2;
+}
+
+.foo {
+  // @class "oreo bg-blue px-4";
   background-color: red;
   @media (--breakpoint-sm) {
-    @class "py-2";
+    // @class "py-2";
     background-color: green;
   }
   @media (--breakpoint-md) {
@@ -10,18 +15,32 @@
   }
 }
 
+@responsive {
+  .bar {
+    color: orange;
+  }
+}
+
 @tailwind utilities;
 
-.bg-light {
-  background: #fff;
+@responsive {
+  .px-4 {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
 }
 
-.px-4 {
-  padding-right: 1rem;
-  padding-left: 1rem;
+@responsive {
+  .sans-alt {
+    font-family: 'Brandon Text';
+  }
 }
 
-.py-2 {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+.this-should-be-the-very-end {
+  color: red;
 }
