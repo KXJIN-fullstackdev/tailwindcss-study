@@ -38562,6 +38562,14 @@ video {
   --text-opacity: 1;
 }
 
+.overflow-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.overflow-clip {
+  text-overflow: clip;
+}
+
 .italic {
   font-style: italic;
 }
@@ -82549,6 +82557,14 @@ video {
     --text-opacity: 1;
   }
 
+  .sm\:overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .sm\:overflow-clip {
+    text-overflow: clip;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -126504,6 +126520,14 @@ video {
 
   .md\:focus\:text-opacity-100:focus {
     --text-opacity: 1;
+  }
+
+  .md\:overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .md\:overflow-clip {
+    text-overflow: clip;
   }
 
   .md\:italic {
@@ -170463,6 +170487,14 @@ video {
     --text-opacity: 1;
   }
 
+  .lg\:overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .lg\:overflow-clip {
+    text-overflow: clip;
+  }
+
   .lg\:italic {
     font-style: italic;
   }
@@ -214420,6 +214452,14 @@ video {
     --text-opacity: 1;
   }
 
+  .xl\:overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .xl\:overflow-clip {
+    text-overflow: clip;
+  }
+
   .xl\:italic {
     font-style: italic;
   }
@@ -258375,6 +258415,14 @@ video {
 
   .\32xl\:focus\:text-opacity-100:focus {
     --text-opacity: 1;
+  }
+
+  .\32xl\:overflow-ellipsis {
+    text-overflow: ellipsis;
+  }
+
+  .\32xl\:overflow-clip {
+    text-overflow: clip;
   }
 
   .\32xl\:italic {
