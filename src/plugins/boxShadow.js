@@ -8,7 +8,8 @@ export default function () {
         return [
           nameClass('shadow', modifier),
           {
-            'box-shadow': value,
+            '--box-shadow': value,
+            'box-shadow': 'var(--box-shadow)',
           },
         ]
       })
