@@ -29141,6 +29141,134 @@ video {
   animation: bounce 1s infinite !important;
 }
 
+.mix-blend-normal {
+  mix-blend-mode: normal !important;
+}
+
+.mix-blend-multiply {
+  mix-blend-mode: multiply !important;
+}
+
+.mix-blend-screen {
+  mix-blend-mode: screen !important;
+}
+
+.mix-blend-overlay {
+  mix-blend-mode: overlay !important;
+}
+
+.mix-blend-darken {
+  mix-blend-mode: darken !important;
+}
+
+.mix-blend-lighten {
+  mix-blend-mode: lighten !important;
+}
+
+.mix-blend-color-dodge {
+  mix-blend-mode: color-dodge !important;
+}
+
+.mix-blend-color-burn {
+  mix-blend-mode: color-burn !important;
+}
+
+.mix-blend-hard-light {
+  mix-blend-mode: hard-light !important;
+}
+
+.mix-blend-soft-light {
+  mix-blend-mode: soft-light !important;
+}
+
+.mix-blend-difference {
+  mix-blend-mode: difference !important;
+}
+
+.mix-blend-exclusion {
+  mix-blend-mode: exclusion !important;
+}
+
+.mix-blend-hue {
+  mix-blend-mode: hue !important;
+}
+
+.mix-blend-saturation {
+  mix-blend-mode: saturation !important;
+}
+
+.mix-blend-color {
+  mix-blend-mode: color !important;
+}
+
+.mix-blend-luminosity {
+  mix-blend-mode: luminosity !important;
+}
+
+.bg-blend-normal {
+  background-blend-mode: normal !important;
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply !important;
+}
+
+.bg-blend-screen {
+  background-blend-mode: screen !important;
+}
+
+.bg-blend-overlay {
+  background-blend-mode: overlay !important;
+}
+
+.bg-blend-darken {
+  background-blend-mode: darken !important;
+}
+
+.bg-blend-lighten {
+  background-blend-mode: lighten !important;
+}
+
+.bg-blend-color-dodge {
+  background-blend-mode: color-dodge !important;
+}
+
+.bg-blend-color-burn {
+  background-blend-mode: color-burn !important;
+}
+
+.bg-blend-hard-light {
+  background-blend-mode: hard-light !important;
+}
+
+.bg-blend-soft-light {
+  background-blend-mode: soft-light !important;
+}
+
+.bg-blend-difference {
+  background-blend-mode: difference !important;
+}
+
+.bg-blend-exclusion {
+  background-blend-mode: exclusion !important;
+}
+
+.bg-blend-hue {
+  background-blend-mode: hue !important;
+}
+
+.bg-blend-saturation {
+  background-blend-mode: saturation !important;
+}
+
+.bg-blend-color {
+  background-blend-mode: color !important;
+}
+
+.bg-blend-luminosity {
+  background-blend-mode: luminosity !important;
+}
+
 .example {
   font-weight: 700;
   color: #ef4444;
@@ -57703,6 +57831,134 @@ video {
 
   .sm\:animate-bounce {
     animation: bounce 1s infinite !important;
+  }
+
+  .sm\:mix-blend-normal {
+    mix-blend-mode: normal !important;
+  }
+
+  .sm\:mix-blend-multiply {
+    mix-blend-mode: multiply !important;
+  }
+
+  .sm\:mix-blend-screen {
+    mix-blend-mode: screen !important;
+  }
+
+  .sm\:mix-blend-overlay {
+    mix-blend-mode: overlay !important;
+  }
+
+  .sm\:mix-blend-darken {
+    mix-blend-mode: darken !important;
+  }
+
+  .sm\:mix-blend-lighten {
+    mix-blend-mode: lighten !important;
+  }
+
+  .sm\:mix-blend-color-dodge {
+    mix-blend-mode: color-dodge !important;
+  }
+
+  .sm\:mix-blend-color-burn {
+    mix-blend-mode: color-burn !important;
+  }
+
+  .sm\:mix-blend-hard-light {
+    mix-blend-mode: hard-light !important;
+  }
+
+  .sm\:mix-blend-soft-light {
+    mix-blend-mode: soft-light !important;
+  }
+
+  .sm\:mix-blend-difference {
+    mix-blend-mode: difference !important;
+  }
+
+  .sm\:mix-blend-exclusion {
+    mix-blend-mode: exclusion !important;
+  }
+
+  .sm\:mix-blend-hue {
+    mix-blend-mode: hue !important;
+  }
+
+  .sm\:mix-blend-saturation {
+    mix-blend-mode: saturation !important;
+  }
+
+  .sm\:mix-blend-color {
+    mix-blend-mode: color !important;
+  }
+
+  .sm\:mix-blend-luminosity {
+    mix-blend-mode: luminosity !important;
+  }
+
+  .sm\:bg-blend-normal {
+    background-blend-mode: normal !important;
+  }
+
+  .sm\:bg-blend-multiply {
+    background-blend-mode: multiply !important;
+  }
+
+  .sm\:bg-blend-screen {
+    background-blend-mode: screen !important;
+  }
+
+  .sm\:bg-blend-overlay {
+    background-blend-mode: overlay !important;
+  }
+
+  .sm\:bg-blend-darken {
+    background-blend-mode: darken !important;
+  }
+
+  .sm\:bg-blend-lighten {
+    background-blend-mode: lighten !important;
+  }
+
+  .sm\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge !important;
+  }
+
+  .sm\:bg-blend-color-burn {
+    background-blend-mode: color-burn !important;
+  }
+
+  .sm\:bg-blend-hard-light {
+    background-blend-mode: hard-light !important;
+  }
+
+  .sm\:bg-blend-soft-light {
+    background-blend-mode: soft-light !important;
+  }
+
+  .sm\:bg-blend-difference {
+    background-blend-mode: difference !important;
+  }
+
+  .sm\:bg-blend-exclusion {
+    background-blend-mode: exclusion !important;
+  }
+
+  .sm\:bg-blend-hue {
+    background-blend-mode: hue !important;
+  }
+
+  .sm\:bg-blend-saturation {
+    background-blend-mode: saturation !important;
+  }
+
+  .sm\:bg-blend-color {
+    background-blend-mode: color !important;
+  }
+
+  .sm\:bg-blend-luminosity {
+    background-blend-mode: luminosity !important;
   }
 
   .sm\:example {
@@ -86270,6 +86526,134 @@ video {
     animation: bounce 1s infinite !important;
   }
 
+  .md\:mix-blend-normal {
+    mix-blend-mode: normal !important;
+  }
+
+  .md\:mix-blend-multiply {
+    mix-blend-mode: multiply !important;
+  }
+
+  .md\:mix-blend-screen {
+    mix-blend-mode: screen !important;
+  }
+
+  .md\:mix-blend-overlay {
+    mix-blend-mode: overlay !important;
+  }
+
+  .md\:mix-blend-darken {
+    mix-blend-mode: darken !important;
+  }
+
+  .md\:mix-blend-lighten {
+    mix-blend-mode: lighten !important;
+  }
+
+  .md\:mix-blend-color-dodge {
+    mix-blend-mode: color-dodge !important;
+  }
+
+  .md\:mix-blend-color-burn {
+    mix-blend-mode: color-burn !important;
+  }
+
+  .md\:mix-blend-hard-light {
+    mix-blend-mode: hard-light !important;
+  }
+
+  .md\:mix-blend-soft-light {
+    mix-blend-mode: soft-light !important;
+  }
+
+  .md\:mix-blend-difference {
+    mix-blend-mode: difference !important;
+  }
+
+  .md\:mix-blend-exclusion {
+    mix-blend-mode: exclusion !important;
+  }
+
+  .md\:mix-blend-hue {
+    mix-blend-mode: hue !important;
+  }
+
+  .md\:mix-blend-saturation {
+    mix-blend-mode: saturation !important;
+  }
+
+  .md\:mix-blend-color {
+    mix-blend-mode: color !important;
+  }
+
+  .md\:mix-blend-luminosity {
+    mix-blend-mode: luminosity !important;
+  }
+
+  .md\:bg-blend-normal {
+    background-blend-mode: normal !important;
+  }
+
+  .md\:bg-blend-multiply {
+    background-blend-mode: multiply !important;
+  }
+
+  .md\:bg-blend-screen {
+    background-blend-mode: screen !important;
+  }
+
+  .md\:bg-blend-overlay {
+    background-blend-mode: overlay !important;
+  }
+
+  .md\:bg-blend-darken {
+    background-blend-mode: darken !important;
+  }
+
+  .md\:bg-blend-lighten {
+    background-blend-mode: lighten !important;
+  }
+
+  .md\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge !important;
+  }
+
+  .md\:bg-blend-color-burn {
+    background-blend-mode: color-burn !important;
+  }
+
+  .md\:bg-blend-hard-light {
+    background-blend-mode: hard-light !important;
+  }
+
+  .md\:bg-blend-soft-light {
+    background-blend-mode: soft-light !important;
+  }
+
+  .md\:bg-blend-difference {
+    background-blend-mode: difference !important;
+  }
+
+  .md\:bg-blend-exclusion {
+    background-blend-mode: exclusion !important;
+  }
+
+  .md\:bg-blend-hue {
+    background-blend-mode: hue !important;
+  }
+
+  .md\:bg-blend-saturation {
+    background-blend-mode: saturation !important;
+  }
+
+  .md\:bg-blend-color {
+    background-blend-mode: color !important;
+  }
+
+  .md\:bg-blend-luminosity {
+    background-blend-mode: luminosity !important;
+  }
+
   .md\:example {
     font-weight: 700;
     color: #ef4444;
@@ -114833,6 +115217,134 @@ video {
 
   .lg\:animate-bounce {
     animation: bounce 1s infinite !important;
+  }
+
+  .lg\:mix-blend-normal {
+    mix-blend-mode: normal !important;
+  }
+
+  .lg\:mix-blend-multiply {
+    mix-blend-mode: multiply !important;
+  }
+
+  .lg\:mix-blend-screen {
+    mix-blend-mode: screen !important;
+  }
+
+  .lg\:mix-blend-overlay {
+    mix-blend-mode: overlay !important;
+  }
+
+  .lg\:mix-blend-darken {
+    mix-blend-mode: darken !important;
+  }
+
+  .lg\:mix-blend-lighten {
+    mix-blend-mode: lighten !important;
+  }
+
+  .lg\:mix-blend-color-dodge {
+    mix-blend-mode: color-dodge !important;
+  }
+
+  .lg\:mix-blend-color-burn {
+    mix-blend-mode: color-burn !important;
+  }
+
+  .lg\:mix-blend-hard-light {
+    mix-blend-mode: hard-light !important;
+  }
+
+  .lg\:mix-blend-soft-light {
+    mix-blend-mode: soft-light !important;
+  }
+
+  .lg\:mix-blend-difference {
+    mix-blend-mode: difference !important;
+  }
+
+  .lg\:mix-blend-exclusion {
+    mix-blend-mode: exclusion !important;
+  }
+
+  .lg\:mix-blend-hue {
+    mix-blend-mode: hue !important;
+  }
+
+  .lg\:mix-blend-saturation {
+    mix-blend-mode: saturation !important;
+  }
+
+  .lg\:mix-blend-color {
+    mix-blend-mode: color !important;
+  }
+
+  .lg\:mix-blend-luminosity {
+    mix-blend-mode: luminosity !important;
+  }
+
+  .lg\:bg-blend-normal {
+    background-blend-mode: normal !important;
+  }
+
+  .lg\:bg-blend-multiply {
+    background-blend-mode: multiply !important;
+  }
+
+  .lg\:bg-blend-screen {
+    background-blend-mode: screen !important;
+  }
+
+  .lg\:bg-blend-overlay {
+    background-blend-mode: overlay !important;
+  }
+
+  .lg\:bg-blend-darken {
+    background-blend-mode: darken !important;
+  }
+
+  .lg\:bg-blend-lighten {
+    background-blend-mode: lighten !important;
+  }
+
+  .lg\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge !important;
+  }
+
+  .lg\:bg-blend-color-burn {
+    background-blend-mode: color-burn !important;
+  }
+
+  .lg\:bg-blend-hard-light {
+    background-blend-mode: hard-light !important;
+  }
+
+  .lg\:bg-blend-soft-light {
+    background-blend-mode: soft-light !important;
+  }
+
+  .lg\:bg-blend-difference {
+    background-blend-mode: difference !important;
+  }
+
+  .lg\:bg-blend-exclusion {
+    background-blend-mode: exclusion !important;
+  }
+
+  .lg\:bg-blend-hue {
+    background-blend-mode: hue !important;
+  }
+
+  .lg\:bg-blend-saturation {
+    background-blend-mode: saturation !important;
+  }
+
+  .lg\:bg-blend-color {
+    background-blend-mode: color !important;
+  }
+
+  .lg\:bg-blend-luminosity {
+    background-blend-mode: luminosity !important;
   }
 
   .lg\:example {
@@ -143400,6 +143912,134 @@ video {
     animation: bounce 1s infinite !important;
   }
 
+  .xl\:mix-blend-normal {
+    mix-blend-mode: normal !important;
+  }
+
+  .xl\:mix-blend-multiply {
+    mix-blend-mode: multiply !important;
+  }
+
+  .xl\:mix-blend-screen {
+    mix-blend-mode: screen !important;
+  }
+
+  .xl\:mix-blend-overlay {
+    mix-blend-mode: overlay !important;
+  }
+
+  .xl\:mix-blend-darken {
+    mix-blend-mode: darken !important;
+  }
+
+  .xl\:mix-blend-lighten {
+    mix-blend-mode: lighten !important;
+  }
+
+  .xl\:mix-blend-color-dodge {
+    mix-blend-mode: color-dodge !important;
+  }
+
+  .xl\:mix-blend-color-burn {
+    mix-blend-mode: color-burn !important;
+  }
+
+  .xl\:mix-blend-hard-light {
+    mix-blend-mode: hard-light !important;
+  }
+
+  .xl\:mix-blend-soft-light {
+    mix-blend-mode: soft-light !important;
+  }
+
+  .xl\:mix-blend-difference {
+    mix-blend-mode: difference !important;
+  }
+
+  .xl\:mix-blend-exclusion {
+    mix-blend-mode: exclusion !important;
+  }
+
+  .xl\:mix-blend-hue {
+    mix-blend-mode: hue !important;
+  }
+
+  .xl\:mix-blend-saturation {
+    mix-blend-mode: saturation !important;
+  }
+
+  .xl\:mix-blend-color {
+    mix-blend-mode: color !important;
+  }
+
+  .xl\:mix-blend-luminosity {
+    mix-blend-mode: luminosity !important;
+  }
+
+  .xl\:bg-blend-normal {
+    background-blend-mode: normal !important;
+  }
+
+  .xl\:bg-blend-multiply {
+    background-blend-mode: multiply !important;
+  }
+
+  .xl\:bg-blend-screen {
+    background-blend-mode: screen !important;
+  }
+
+  .xl\:bg-blend-overlay {
+    background-blend-mode: overlay !important;
+  }
+
+  .xl\:bg-blend-darken {
+    background-blend-mode: darken !important;
+  }
+
+  .xl\:bg-blend-lighten {
+    background-blend-mode: lighten !important;
+  }
+
+  .xl\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge !important;
+  }
+
+  .xl\:bg-blend-color-burn {
+    background-blend-mode: color-burn !important;
+  }
+
+  .xl\:bg-blend-hard-light {
+    background-blend-mode: hard-light !important;
+  }
+
+  .xl\:bg-blend-soft-light {
+    background-blend-mode: soft-light !important;
+  }
+
+  .xl\:bg-blend-difference {
+    background-blend-mode: difference !important;
+  }
+
+  .xl\:bg-blend-exclusion {
+    background-blend-mode: exclusion !important;
+  }
+
+  .xl\:bg-blend-hue {
+    background-blend-mode: hue !important;
+  }
+
+  .xl\:bg-blend-saturation {
+    background-blend-mode: saturation !important;
+  }
+
+  .xl\:bg-blend-color {
+    background-blend-mode: color !important;
+  }
+
+  .xl\:bg-blend-luminosity {
+    background-blend-mode: luminosity !important;
+  }
+
   .xl\:example {
     font-weight: 700;
     color: #ef4444;
@@ -171963,6 +172603,134 @@ video {
 
   .\32xl\:animate-bounce {
     animation: bounce 1s infinite !important;
+  }
+
+  .\32xl\:mix-blend-normal {
+    mix-blend-mode: normal !important;
+  }
+
+  .\32xl\:mix-blend-multiply {
+    mix-blend-mode: multiply !important;
+  }
+
+  .\32xl\:mix-blend-screen {
+    mix-blend-mode: screen !important;
+  }
+
+  .\32xl\:mix-blend-overlay {
+    mix-blend-mode: overlay !important;
+  }
+
+  .\32xl\:mix-blend-darken {
+    mix-blend-mode: darken !important;
+  }
+
+  .\32xl\:mix-blend-lighten {
+    mix-blend-mode: lighten !important;
+  }
+
+  .\32xl\:mix-blend-color-dodge {
+    mix-blend-mode: color-dodge !important;
+  }
+
+  .\32xl\:mix-blend-color-burn {
+    mix-blend-mode: color-burn !important;
+  }
+
+  .\32xl\:mix-blend-hard-light {
+    mix-blend-mode: hard-light !important;
+  }
+
+  .\32xl\:mix-blend-soft-light {
+    mix-blend-mode: soft-light !important;
+  }
+
+  .\32xl\:mix-blend-difference {
+    mix-blend-mode: difference !important;
+  }
+
+  .\32xl\:mix-blend-exclusion {
+    mix-blend-mode: exclusion !important;
+  }
+
+  .\32xl\:mix-blend-hue {
+    mix-blend-mode: hue !important;
+  }
+
+  .\32xl\:mix-blend-saturation {
+    mix-blend-mode: saturation !important;
+  }
+
+  .\32xl\:mix-blend-color {
+    mix-blend-mode: color !important;
+  }
+
+  .\32xl\:mix-blend-luminosity {
+    mix-blend-mode: luminosity !important;
+  }
+
+  .\32xl\:bg-blend-normal {
+    background-blend-mode: normal !important;
+  }
+
+  .\32xl\:bg-blend-multiply {
+    background-blend-mode: multiply !important;
+  }
+
+  .\32xl\:bg-blend-screen {
+    background-blend-mode: screen !important;
+  }
+
+  .\32xl\:bg-blend-overlay {
+    background-blend-mode: overlay !important;
+  }
+
+  .\32xl\:bg-blend-darken {
+    background-blend-mode: darken !important;
+  }
+
+  .\32xl\:bg-blend-lighten {
+    background-blend-mode: lighten !important;
+  }
+
+  .\32xl\:bg-blend-color-dodge {
+    background-blend-mode: color-dodge !important;
+  }
+
+  .\32xl\:bg-blend-color-burn {
+    background-blend-mode: color-burn !important;
+  }
+
+  .\32xl\:bg-blend-hard-light {
+    background-blend-mode: hard-light !important;
+  }
+
+  .\32xl\:bg-blend-soft-light {
+    background-blend-mode: soft-light !important;
+  }
+
+  .\32xl\:bg-blend-difference {
+    background-blend-mode: difference !important;
+  }
+
+  .\32xl\:bg-blend-exclusion {
+    background-blend-mode: exclusion !important;
+  }
+
+  .\32xl\:bg-blend-hue {
+    background-blend-mode: hue !important;
+  }
+
+  .\32xl\:bg-blend-saturation {
+    background-blend-mode: saturation !important;
+  }
+
+  .\32xl\:bg-blend-color {
+    background-blend-mode: color !important;
+  }
+
+  .\32xl\:bg-blend-luminosity {
+    background-blend-mode: luminosity !important;
   }
 
   .\32xl\:example {
