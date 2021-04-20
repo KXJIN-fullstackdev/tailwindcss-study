@@ -1,4 +1,4 @@
-/*! tailwindcss v2.1.0 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.1.1 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -7860,6 +7860,18 @@ video {
 
 .bg-contain {
   background-size: contain !important;
+}
+
+.bg-origin-border {
+  background-origin: border-box !important;
+}
+
+.bg-origin-padding {
+  background-origin: padding-box !important;
+}
+
+.bg-origin-content {
+  background-origin: content-box !important;
 }
 
 .border-collapse {
@@ -37108,6 +37120,18 @@ video {
     background-size: contain !important;
   }
 
+  .sm\:bg-origin-border {
+    background-origin: border-box !important;
+  }
+
+  .sm\:bg-origin-padding {
+    background-origin: padding-box !important;
+  }
+
+  .sm\:bg-origin-content {
+    background-origin: content-box !important;
+  }
+
   .sm\:border-collapse {
     border-collapse: collapse !important;
   }
@@ -66217,6 +66241,18 @@ video {
 
   .md\:bg-contain {
     background-size: contain !important;
+  }
+
+  .md\:bg-origin-border {
+    background-origin: border-box !important;
+  }
+
+  .md\:bg-origin-padding {
+    background-origin: padding-box !important;
+  }
+
+  .md\:bg-origin-content {
+    background-origin: content-box !important;
   }
 
   .md\:border-collapse {
@@ -95330,6 +95366,18 @@ video {
     background-size: contain !important;
   }
 
+  .lg\:bg-origin-border {
+    background-origin: border-box !important;
+  }
+
+  .lg\:bg-origin-padding {
+    background-origin: padding-box !important;
+  }
+
+  .lg\:bg-origin-content {
+    background-origin: content-box !important;
+  }
+
   .lg\:border-collapse {
     border-collapse: collapse !important;
   }
@@ -124441,6 +124489,18 @@ video {
     background-size: contain !important;
   }
 
+  .xl\:bg-origin-border {
+    background-origin: border-box !important;
+  }
+
+  .xl\:bg-origin-padding {
+    background-origin: padding-box !important;
+  }
+
+  .xl\:bg-origin-content {
+    background-origin: content-box !important;
+  }
+
   .xl\:border-collapse {
     border-collapse: collapse !important;
   }
@@ -153550,6 +153610,18 @@ video {
 
   .\32xl\:bg-contain {
     background-size: contain !important;
+  }
+
+  .\32xl\:bg-origin-border {
+    background-origin: border-box !important;
+  }
+
+  .\32xl\:bg-origin-padding {
+    background-origin: padding-box !important;
+  }
+
+  .\32xl\:bg-origin-content {
+    background-origin: content-box !important;
   }
 
   .\32xl\:border-collapse {
