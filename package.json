@@ -16,25 +16,22 @@
     "integrations/*",
     "oxide/crates/node"
   ],
+  "tailwindcss": {
+    "engine": "oxide"
+  },
   "scripts": {
-    "prebuild": "npm run generate && rimraf lib",
-    "build": "swc src --out-dir lib --copy-files",
-    "postbuild": "esbuild lib/cli-peer-dependencies.js --bundle --platform=node --outfile=peers/index.js --define:process.env.CSS_TRANSFORMER_WASM=false",
-    "rebuild-fixtures": "npm run build && node -r @swc/register scripts/rebuildFixtures.js",
+    "dev": "concurrently -n tailwind,oxide-node -c green,yellow 'npm run dev:js' 'npm run dev:rust'",
+    "build": "npm run build:rust && npm run build:js && npm run build:peers",
+    "test": "jest",
     "style": "eslint .",
-    "pretest": "npm run generate",
-    "test": "jest && OXIDE=1 jest",
-    "test:integrations": "npm run test --prefix ./integrations",
-    "install:integrations": "node scripts/install-integrations.js",
+    "prepublishOnly": "npm install --force && npm run build && npm run generate:types",
+    "dev:rust": "npm run --prefix ./oxide dev:node",
+    "dev:js": "npm run build:js -- --watch",
+    "build:rust": "npm run --prefix ./oxide build:node",
+    "build:js": "npm run generate:plugin-list && swc src --out-dir lib --copy-files --delete-dir-on-start",
+    "build:peers": "esbuild lib/cli-peer-dependencies.js --bundle --platform=node --outfile=peers/index.js --define:process.env.CSS_TRANSFORMER_WASM=false",
     "generate:plugin-list": "node -r @swc/register scripts/create-plugin-list.js",
-    "generate:types": "node -r @swc/register scripts/generate-types.js",
-    "generate": "npm run generate:plugin-list && npm run generate:types",
-    "release-channel": "node ./scripts/release-channel.js",
-    "release-notes": "node ./scripts/release-notes.js",
-    "oxide:install": "npm run install:all --prefix ./oxide",
-    "oxide:dev": "concurrently -n tailwind,oxide-node -c green,yellow 'npm run build -- --watch' 'npm run --prefix ./oxide dev:node'",
-    "oxide:build": "npm run --prefix ./oxide build:node && npm run build",
-    "prepublishOnly": "npm install --force && npm run build"
+    "generate:types": "node -r @swc/register scripts/generate-types.js"
   },
   "files": [
     "src/*",
@@ -45,7 +42,6 @@
     "stubs/*.stub.js",
     "nesting/*",
     "types/**/*",
-    "oxide-node-api-shim",
     "*.d.ts",
     "*.css",
     "*.js"
@@ -108,6 +104,7 @@
   ],
   "jest": {
     "testTimeout": 30000,
+    "globalSetup": "<rootDir>/jest/global-setup.js",
     "setupFilesAfterEnv": [
       "<rootDir>/jest/customMatchers.js"
     ],
@@ -123,6 +120,6 @@
     }
   },
   "engines": {
-    "node": ">=12.13.0"
+    "node": ">=16.0.0"
   }
 }
